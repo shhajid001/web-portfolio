@@ -1,4 +1,5 @@
 body{
+    margin: 0;
     font-family: 'Arvo', serif;
 }
 h1{
@@ -6,4 +7,76 @@ h1{
 }
 .name-highlight{
     color: orange;
+}
+.half-width{
+    width: 40%;
+    margin-left: 5%;
+    padding-left:2%;
+    float: left;
+}
+.half-width2{
+    margin: 2%;
+    float: right;
+}
+.half-width img{ 
+    width: 70%;
+}
+.half-width-img2{
+    width: 100%;
+}
+.top-banner{
+    background-image: url("images/Artboard\ 1.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 600px;
+}
+.button{
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(45deg, rgb(255, 0, 0), orange);
+    padding: 5px 8px;
+    font-weight: 500;
+    border-radius: 10px;
+}
+.job-description{
+    background-image: url(images/Untitled-3a.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.half-width-text{
+    width: 40%;
+    /* margin-left: 5%;
+    padding-left:2%; */
+    float: left;
+}
+p{
+    text-align: justify;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    height: 40%;
+    padding: 1%;
+    background-color: white;
+}
+.experience{
+    background-image: url(images/background-2.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 110px;
+}
+#Full-Stack{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, green, yellow);
+    border-image-slice: 1;
+}
+#junior-web{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, red);
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
+    font-size: 12px;
+    color: grey;
 }
